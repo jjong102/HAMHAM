@@ -1,6 +1,6 @@
 # HAMHAM
-![Up![Uploading HL FMA(Future Mobility Award) 2025 포스터.jpg…]()
-loading 개막식_단체사진_1.jpg…]()
+![개막식_단체사진_1](https://github.com/user-attachments/assets/cf3c1307-b116-4376-a079-fc073e5407f2)
+![HL FMA(Future Mobility Award) 2025 포스터](https://github.com/user-attachments/assets/a1456df5-5bad-44eb-94f6-344a001a609a)
 
 ## ROS2 TOPIC, 폴더 및 파일 구조도
 ```mermaid

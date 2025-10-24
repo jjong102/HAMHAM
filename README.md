@@ -3,26 +3,25 @@
 ## 폴더 및 파일 구조도
 ```mermaid
 %%{init: {"flowchart": {
-  "curve": "stepAfter",
+  "curve": "linear",
   "htmlLabels": true,
-  "nodeSpacing": 25,
-  "rankSpacing": 30,
+  "useMaxWidth": false,
+  "nodeSpacing": 16,
+  "rankSpacing": 16,
   "padding": 0
 }} }%%
 graph LR
-
 classDef node fill:#eef,stroke:#99c,color:#111,stroke-width:1px;
 classDef topic fill:#f4f1ff,stroke:#99c,color:#333,stroke-width:1px;
-classDef invis fill:transparent,stroke:transparent,color:transparent;
 
-%% ========== Localization (GPS + NTRIP) ==========
+%% Localization
 subgraph Localization
-  U[<b>ublox_gps_node</b><br/>ublox/ublox_gps/src/node.cpp<br/>ublox/ublox_gps/src/ublox_firmware6.cpp]:::node
+direction LR
+  U[<b>ublox_gps_node</b><br/>ublox/ublox_gps/src/node.cpp]:::node
   Fix((/ublox_gps_node/fix)):::topic
   NMEA((/nmea)):::topic
-  RTCM((/rtcm)):::topic
   N[<b>ntrip_client</b><br/>ntrip_client/scripts/ntrip_ros.py]:::node
-
+  RTCM((/rtcm)):::topic
   U --> Fix
   U --> NMEA
   Fix --> N
@@ -31,8 +30,9 @@ subgraph Localization
   RTCM --> U
 end
 
-%% ========== IMU (BNO055) ==========
+%% IMU
 subgraph IMU
+direction LR
   B[<b>bno055</b><br/>combined_rtk/combined_rtk/bno055.py]:::node
   Yaw((/bno055/yaw_deg)):::topic
   Cal((/bno055/calibration)):::topic
@@ -44,54 +44,51 @@ subgraph IMU
   B -.-> Debug
 end
 
-%% ========== State Estimation ==========
+%% State Estimation
 subgraph State_Estimation
+direction LR
   P[<b>pose_publisher</b><br/>gps_path_planner/gps_path_planner/pose_publisher.py]:::node
   XY((/current_xy)):::topic
-  Y((/current_yaw)):::topic
-
-  %% 라우팅용 보이지 않는 포트(선 분리용)
-  Pfix[ ]:::invis
-  Pyaw[ ]:::invis
-
-  %% 입력선 분리(겹침 방지 + 라벨)
-  Fix -->|fix| Pfix --> P
-  Yaw -->|yaw| Pyaw --> P
-
-  P --> Y
+  YT((/current_yaw)):::topic
+  Fix -->|fix| P
+  Yaw -->|yaw| P
   P --> XY
+  P --> YT
 end
 
-%% ========== Planner / Control ==========
+%% Planning / Control
 subgraph Planning
+direction LR
   G[<b>gps_global_path_publisher</b><br/>gps_path_planner/gps_path_planner/gps_publish_global_path_node.py]:::node
   PATH((/global_path)):::topic
   G --> PATH
 
   PP[<b>pure_pursuit_node</b><br/>gps_path_planner/gps_path_planner/pure_pursuit_node.py]:::node
-  PATH --> PP
-  XY --> PP
-  Y --> PP
+  MM[<b>mission_manager</b><br/>gps_path_planner/gps_path_planner/mission_manager.py]:::node
+
+  %% XY / Yaw → 두 노드로 각각 라벨 표시
+  XY -->|XY| PP
+  XY -->|XY| MM
+  YT -->|Yaw| PP
+  YT -->|Yaw| MM
+
   Throttle((/drive_throttle)):::topic --> PP
+  Throttle --> MM
   CMD((/cmd_vel)):::topic
   PP --> CMD
-
-  MM[<b>mission_manager</b><br/>gps_path_planner/gps_path_planner/mission_manager.py]:::node
-  PATH --> MM
-  XY --> MM
-  Y --> MM
-  Throttle --> MM
   MM --> CMD
 end
 
 subgraph Control_IO
+direction LR
   TSB[<b>twist_serial_bridge</b><br/>gps_path_planner/gps_path_planner/twist_serial_bridge.py]:::node
   CMD --> TSB
   Throttle --> TSB
 end
 
-%% ========== Perception - Lidar ==========
+%% Lidar
 subgraph Perception_Lidar
+direction LR
   LIDAR[<b>rplidar_node</b><br/>rplidar_ros/src/rplidar_node.cpp]:::node
   SCAN((/scan)):::topic
   LIDAR --> SCAN
@@ -109,8 +106,9 @@ subgraph Perception_Lidar
   LidarROI --> ALERT
 end
 
-%% ========== Perception - Cameras ==========
+%% Cameras
 subgraph Perception_Cameras
+direction LR
   LC[<b>left_cam/camera_publisher</b><br/>gps_path_planner/gps_path_planner/camera_publisher.py]:::node --> LeftImg((/left_cam/image_raw)):::topic
   CC[<b>center_cam/camera_publisher</b><br/>gps_path_planner/gps_path_planner/camera_publisher.py]:::node --> CenterImg((/center_cam/image_raw)):::topic
 
@@ -141,4 +139,5 @@ subgraph Perception_Cameras
   TL --> TLL
   TL --> TLIMG
 end
+
 ```

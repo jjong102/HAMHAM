@@ -73,12 +73,12 @@ subgraph Control IO
   Throttle --> TSB
 end
 
-%% ========== Perception (Lidar / Camera) ==========
+%% ========== Perception - Lidar ==========
 subgraph Perception - Lidar
   LIDAR[rplidar_node<br/>rplidar_ros/src/rplidar_node.cpp]
   SCAN((/scan))
   LIDAR --> SCAN
-  LidarROI[lidar_roi_node<br/>gps_path_planner/gps_path_planner/lidar_roi_node.py)]
+  LidarROI[lidar_roi_node<br/>gps_path_planner/gps_path_planner/lidar_roi_node.py]
   SCAN --> LidarROI
   FRONT((/scan/front_filtered))
   OBST((/obstacles/centers))
@@ -92,26 +92,37 @@ subgraph Perception - Lidar
   LidarROI --> ALERT
 end
 
+%% ========== Perception - Cameras ==========
 subgraph Perception - Cameras
   LC[left_cam/camera_publisher<br/>gps_path_planner/gps_path_planner/camera_publisher.py] --> LeftImg((/left_cam/image_raw))
   CC[center_cam/camera_publisher<br/>gps_path_planner/gps_path_planner/camera_publisher.py] --> CenterImg((/center_cam/image_raw))
 
   ConeL[left_cam/cone_detector<br/>gps_path_planner/gps_path_planner/cone_detector.py]
   LeftImg --> ConeL
-  ConeL --> CLSL((/cones/left/state))
-  ConeL --> IML((/cones/left/image))
+  CLSL((/cones/left/state))
+  IML((/cones/left/image))
+  ConeL --> CLSL
+  ConeL --> IML
 
   ConeC[center_cam/cone_detector<br/>gps_path_planner/gps_path_planner/cone_detector.py]
   CenterImg --> ConeC
-  ConeC --> CLSC((/cones/center/state))
-  ConeC --> IMC((/cones/center/image))
+  CLSC((/cones/center/state))
+  IMC((/cones/center/image))
+  ConeC --> CLSC
+  ConeC --> IMC
 
   TL[center_cam/traffic_light_node<br/>gps_path_planner/gps_path_planner/traffic_light_node.py]
   CenterImg --> TL
-  TL --> TLR((/traffic_light/red))
-  TL --> TLG((/traffic_light/green))
-  TL --> TLO((/traffic_light/orange))
-  TL --> TLL((/traffic_light/left))
-  TL --> TLIMG((/traffic_light/image))
+  TLR((/traffic_light/red))
+  TLG((/traffic_light/green))
+  TLO((/traffic_light/orange))
+  TLL((/traffic_light/left))
+  TLIMG((/traffic_light/image))
+  TL --> TLR
+  TL --> TLG
+  TL --> TLO
+  TL --> TLL
+  TL --> TLIMG
 end
+
 ```

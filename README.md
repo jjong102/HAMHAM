@@ -1,4 +1,4 @@
-# HAMHAM팀, HL FMA 자율주행 경진대회(aMAP Innovater Championship[1/5]부분 참가)
+# HAMHAM팀, HL FMA 자율주행 경진대회 (aMAP Innovator Championship[1/5]부분 참가)
 ![현장사진2](https://github.com/user-attachments/assets/a7019bfd-7838-44c5-9d72-c1d0ac70c866)
 ![개막식_단체사진_1](https://github.com/user-attachments/assets/cf3c1307-b116-4376-a079-fc073e5407f2)
 ![HL FMA(Future Mobility Award) 2025 포스터](https://github.com/user-attachments/assets/a1456df5-5bad-44eb-94f6-344a001a609a)

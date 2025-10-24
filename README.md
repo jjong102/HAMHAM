@@ -1,6 +1,6 @@
 # HAMHAM
 
-## 폴더 및 파일 구조도
+## ROS2 TOPIC, 폴더 및 파일 구조도
 ```mermaid
 %%{init: {"flowchart": {
   "curve": "linear",

@@ -2,12 +2,12 @@
 
 ## 폴더 및 파일 구조도
 ```mermaid
+%%{init: {"flowchart": {"curve": "stepAfter", "htmlLabels": true}} }%%
 graph LR
 
-%% ========== Localization (GPS + NTRIP) ==========
 subgraph Localization
-  U[ublox_gps_node<br/>ublox/ublox_gps/src/node.cpp<br/>ublox/ublox_gps/src/ublox_firmware6.cpp]
-  N[ntrip_client<br/>ntrip_client/scripts/ntrip_ros.py]
+  U[<b>ublox_gps_node</b><br/>ublox/ublox_gps/src/node.cpp<br/>ublox/ublox_gps/src/ublox_firmware6.cpp]
+  N[<b>ntrip_client</b><br/>ntrip_client/scripts/ntrip_ros.py]
 
   Fix((/ublox_gps_node/fix))
   NMEA((/nmea))
@@ -21,9 +21,8 @@ subgraph Localization
   RTCM --> U
 end
 
-%% ========== IMU (BNO055) ==========
 subgraph IMU
-  B[bno055<br/>combined_rtk/combined_rtk/bno055.py]
+  B[<b>bno055</b><br/>combined_rtk/combined_rtk/bno055.py]
   Yaw((/bno055/yaw_deg))
   Cal((/bno055/calibration))
   Ready((/bno055/is_calibrated))
@@ -34,9 +33,8 @@ subgraph IMU
   B -.-> Debug
 end
 
-%% ========== State Estimation ==========
-subgraph State Estimation
-  P[pose_publisher<br/>gps_path_planner/gps_path_planner/pose_publisher.py]
+subgraph State_Estimation
+  P[<b>pose_publisher</b><br/>gps_path_planner/gps_path_planner/pose_publisher.py]
   XY((/current_xy))
   Y((/current_yaw))
   Fix --> P
@@ -45,13 +43,12 @@ subgraph State Estimation
   P --> Y
 end
 
-%% ========== Planner / Control ==========
 subgraph Planning
-  G[gps_global_path_publisher<br/>gps_path_planner/gps_path_planner/gps_publish_global_path_node.py]
+  G[<b>gps_global_path_publisher</b><br/>gps_path_planner/gps_path_planner/gps_publish_global_path_node.py]
   PATH((/global_path))
   G --> PATH
 
-  PP[pure_pursuit_node<br/>gps_path_planner/gps_path_planner/pure_pursuit_node.py]
+  PP[<b>pure_pursuit_node</b><br/>gps_path_planner/gps_path_planner/pure_pursuit_node.py]
   PATH --> PP
   XY --> PP
   Y --> PP
@@ -59,7 +56,7 @@ subgraph Planning
   CMD((/cmd_vel))
   PP --> CMD
 
-  MM[mission_manager<br/>gps_path_planner/gps_path_planner/mission_manager.py]
+  MM[<b>mission_manager</b><br/>gps_path_planner/gps_path_planner/mission_manager.py]
   PATH --> MM
   XY --> MM
   Y --> MM
@@ -67,18 +64,17 @@ subgraph Planning
   MM --> CMD
 end
 
-subgraph Control IO
-  TSB[twist_serial_bridge<br/>gps_path_planner/gps_path_planner/twist_serial_bridge.py]
+subgraph Control_IO
+  TSB[<b>twist_serial_bridge</b><br/>gps_path_planner/gps_path_planner/twist_serial_bridge.py]
   CMD --> TSB
   Throttle --> TSB
 end
 
-%% ========== Perception - Lidar ==========
-subgraph Perception - Lidar
-  LIDAR[rplidar_node<br/>rplidar_ros/src/rplidar_node.cpp]
+subgraph Perception_Lidar
+  LIDAR[<b>rplidar_node</b><br/>rplidar_ros/src/rplidar_node.cpp]
   SCAN((/scan))
   LIDAR --> SCAN
-  LidarROI[lidar_roi_node<br/>gps_path_planner/gps_path_planner/lidar_roi_node.py]
+  LidarROI[<b>lidar_roi_node</b><br/>gps_path_planner/gps_path_planner/lidar_roi_node.py]
   SCAN --> LidarROI
   FRONT((/scan/front_filtered))
   OBST((/obstacles/centers))
@@ -92,26 +88,25 @@ subgraph Perception - Lidar
   LidarROI --> ALERT
 end
 
-%% ========== Perception - Cameras ==========
-subgraph Perception - Cameras
-  LC[left_cam/camera_publisher<br/>gps_path_planner/gps_path_planner/camera_publisher.py] --> LeftImg((/left_cam/image_raw))
-  CC[center_cam/camera_publisher<br/>gps_path_planner/gps_path_planner/camera_publisher.py] --> CenterImg((/center_cam/image_raw))
+subgraph Perception_Cameras
+  LC[<b>left_cam/camera_publisher</b><br/>gps_path_planner/gps_path_planner/camera_publisher.py] --> LeftImg((/left_cam/image_raw))
+  CC[<b>center_cam/camera_publisher</b><br/>gps_path_planner/gps_path_planner/camera_publisher.py] --> CenterImg((/center_cam/image_raw))
 
-  ConeL[left_cam/cone_detector<br/>gps_path_planner/gps_path_planner/cone_detector.py]
+  ConeL[<b>left_cam/cone_detector</b><br/>gps_path_planner/gps_path_planner/cone_detector.py]
   LeftImg --> ConeL
   CLSL((/cones/left/state))
   IML((/cones/left/image))
   ConeL --> CLSL
   ConeL --> IML
 
-  ConeC[center_cam/cone_detector<br/>gps_path_planner/gps_path_planner/cone_detector.py]
+  ConeC[<b>center_cam/cone_detector</b><br/>gps_path_planner/gps_path_planner/cone_detector.py]
   CenterImg --> ConeC
   CLSC((/cones/center/state))
   IMC((/cones/center/image))
   ConeC --> CLSC
   ConeC --> IMC
 
-  TL[center_cam/traffic_light_node<br/>gps_path_planner/gps_path_planner/traffic_light_node.py]
+  TL[<b>center_cam/traffic_light_node</b><br/>gps_path_planner/gps_path_planner/traffic_light_node.py]
   CenterImg --> TL
   TLR((/traffic_light/red))
   TLG((/traffic_light/green))
@@ -124,5 +119,6 @@ subgraph Perception - Cameras
   TL --> TLL
   TL --> TLIMG
 end
+
 
 ```

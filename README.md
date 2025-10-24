@@ -1,6 +1,19 @@
 # HAMHAM
+![현장사진2](https://github.com/user-attachments/assets/a7019bfd-7838-44c5-9d72-c1d0ac70c866)
 ![개막식_단체사진_1](https://github.com/user-attachments/assets/cf3c1307-b116-4376-a079-fc073e5407f2)
 ![HL FMA(Future Mobility Award) 2025 포스터](https://github.com/user-attachments/assets/a1456df5-5bad-44eb-94f6-344a001a609a)
+
+## 차량모습
+![KakaoTalk_20251024_160634802](https://github.com/user-attachments/assets/2f49591c-2c4c-41a9-8e9b-b9208d4c6c0b)
+
+## 예선 주행 동영상
+### 예선 1차 주행
+https://github.com/user-attachments/assets/5583dcc6-c27f-4663-b9b7-700495dcbb3e
+
+### 예선 2차 주행
+https://github.com/user-attachments/assets/9c30865d-1c16-4d77-8ea1-ea078ad7916f
+
+
 
 ## ROS2 TOPIC, 폴더 및 파일 구조도
 ```mermaid

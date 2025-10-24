@@ -1,0 +1,27 @@
+[0.452s] Invoking command in '/home/leewonjong/ros2_ws/build/ntrip_client': PYTHONPATH=/home/leewonjong/ros2_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leewonjong/ros2_ws/build/ntrip_client/build --no-deps symlink_data
+[0.594s] running develop
+[0.671s] running egg_info
+[0.671s] creating src/ntrip_client.egg-info
+[0.671s] writing src/ntrip_client.egg-info/PKG-INFO
+[0.671s] writing dependency_links to src/ntrip_client.egg-info/dependency_links.txt
+[0.671s] writing requirements to src/ntrip_client.egg-info/requires.txt
+[0.671s] writing top-level names to src/ntrip_client.egg-info/top_level.txt
+[0.671s] writing manifest file 'src/ntrip_client.egg-info/SOURCES.txt'
+[0.672s] reading manifest file 'src/ntrip_client.egg-info/SOURCES.txt'
+[0.672s] writing manifest file 'src/ntrip_client.egg-info/SOURCES.txt'
+[0.674s] running build_ext
+[0.674s] Creating /home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip-client.egg-link (link to src)
+[0.674s] Installing ntrip_ros.py script to /home/leewonjong/ros2_ws/install/ntrip_client/lib/ntrip_client
+[0.674s] Installing ntrip_ros_base.py script to /home/leewonjong/ros2_ws/install/ntrip_client/lib/ntrip_client
+[0.674s] Installing ntrip_serial_device_ros.py script to /home/leewonjong/ros2_ws/install/ntrip_client/lib/ntrip_client
+[0.674s] 
+[0.674s] Installed /home/leewonjong/ros2_ws/build/ntrip_client/src
+[0.674s] running symlink_data
+[0.674s] creating /home/leewonjong/ros2_ws/install/ntrip_client/share/ament_index
+[0.674s] creating /home/leewonjong/ros2_ws/install/ntrip_client/share/ament_index/resource_index
+[0.674s] creating /home/leewonjong/ros2_ws/install/ntrip_client/share/ament_index/resource_index/packages
+[0.674s] symbolically linking /home/leewonjong/ros2_ws/build/ntrip_client/resource/ntrip_client -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ament_index/resource_index/packages
+[0.674s] symbolically linking /home/leewonjong/ros2_ws/build/ntrip_client/package.xml -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ntrip_client
+[0.674s] symbolically linking /home/leewonjong/ros2_ws/build/ntrip_client/launch/ntrip_serial_device_launch.py -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ntrip_client
+[0.674s] symbolically linking /home/leewonjong/ros2_ws/build/ntrip_client/launch/ntrip_client_launch.py -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ntrip_client
+[0.689s] Invoked command in '/home/leewonjong/ros2_ws/build/ntrip_client' returned '0': PYTHONPATH=/home/leewonjong/ros2_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leewonjong/ros2_ws/build/ntrip_client/build --no-deps symlink_data

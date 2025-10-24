@@ -1,0 +1,64 @@
+running develop
+Removing /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps-path-planner.egg-link (link to .)
+running egg_info
+writing ../../build/gps_path_planner/gps_path_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/gps_path_planner/gps_path_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/gps_path_planner/gps_path_planner.egg-info/entry_points.txt
+writing requirements to ../../build/gps_path_planner/gps_path_planner.egg-info/requires.txt
+writing top-level names to ../../build/gps_path_planner/gps_path_planner.egg-info/top_level.txt
+reading manifest file '../../build/gps_path_planner/gps_path_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/gps_path_planner/gps_path_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leewonjong/ros2_ws/build/gps_path_planner/build
+creating /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib
+creating /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/pose_publisher.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/traffic_light_node.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/__init__.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/cone_detector.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/gps_latlon_logger.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/mission_manager.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/twist_serial_bridge.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/realtime_phone.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/gps_publish_global_path_node.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+copying gps_path_planner/pure_pursuit_node.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+running install
+running install_lib
+creating /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/pose_publisher.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/traffic_light_node.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/__init__.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/cone_detector.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/gps_latlon_logger.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/mission_manager.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/twist_serial_bridge.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/realtime_phone.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/gps_publish_global_path_node.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/pure_pursuit_node.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/pose_publisher.py to pose_publisher.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/traffic_light_node.py to traffic_light_node.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/cone_detector.py to cone_detector.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/gps_latlon_logger.py to gps_latlon_logger.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/mission_manager.py to mission_manager.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/twist_serial_bridge.py to twist_serial_bridge.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/realtime_phone.py to realtime_phone.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/gps_publish_global_path_node.py to gps_publish_global_path_node.cpython-310.pyc
+byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/pure_pursuit_node.py to pure_pursuit_node.cpython-310.pyc
+running install_data
+copying resource/gps_path_planner -> /home/leewonjong/ros2_ws/install/gps_path_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/leewonjong/ros2_ws/install/gps_path_planner/share/gps_path_planner
+copying launch/gps_path_planner_launch.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/share/gps_path_planner/launch
+running install_egg_info
+Copying ../../build/gps_path_planner/gps_path_planner.egg-info to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cone_detector script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing gps_latlon_logger script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing gps_publish_global_path_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing mission_manager script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing pose_publisher script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing pure_pursuit_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing traffic_light_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing twist_serial_bridge script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+writing list of installed files to '/home/leewonjong/ros2_ws/build/gps_path_planner/install.log'

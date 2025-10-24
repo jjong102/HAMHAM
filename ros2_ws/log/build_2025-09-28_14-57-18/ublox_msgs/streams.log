@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/rplidar_ros:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox_msgs -- -j16 -l16
+[0.086s] [  0%] Built target ublox_msgs__cpp
+[0.112s] [  0%] Built target ament_cmake_python_symlink_ublox_msgs
+[0.161s] [ 12%] Built target ublox_msgs__rosidl_typesupport_introspection_cpp
+[0.295s] running egg_info
+[0.295s] writing ublox_msgs.egg-info/PKG-INFO
+[0.295s] writing dependency_links to ublox_msgs.egg-info/dependency_links.txt
+[0.295s] writing top-level names to ublox_msgs.egg-info/top_level.txt
+[0.297s] reading manifest file 'ublox_msgs.egg-info/SOURCES.txt'
+[0.297s] writing manifest file 'ublox_msgs.egg-info/SOURCES.txt'
+[0.314s] [ 12%] Built target ament_cmake_python_build_ublox_msgs_egg
+[0.359s] [ 24%] Built target ublox_msgs__rosidl_typesupport_fastrtps_cpp
+[0.387s] [ 36%] Built target ublox_msgs__rosidl_typesupport_cpp
+[0.413s] [ 48%] Built target ublox_msgs__rosidl_generator_c
+[0.426s] [ 49%] Built target ublox_msgs_lib
+[0.449s] [ 62%] Built target ublox_msgs__rosidl_typesupport_c
+[0.472s] [ 75%] Built target ublox_msgs__rosidl_typesupport_introspection_c
+[0.507s] [ 88%] Built target ublox_msgs__rosidl_typesupport_fastrtps_c
+[0.519s] [ 88%] Built target ublox_msgs
+[0.532s] [ 88%] Built target ublox_msgs__py
+[0.545s] gmake[2]: *** [CMakeFiles/ublox_msgs__rosidl_generator_py.dir/build.make:1422: CMakeFiles/ublox_msgs__rosidl_generator_py.dir/depend] Interrupt
+[0.545s] gmake[1]: *** [CMakeFiles/Makefile2:476: CMakeFiles/ublox_msgs__rosidl_generator_py.dir/all] Interrupt
+[0.546s] gmake: *** [Makefile:146: all] Interrupt
+[0.548s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_msgs' returned '-2': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/rplidar_ros:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox_msgs -- -j16 -l16

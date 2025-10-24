@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/gps_path_planner/gps_path_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/gps_path_planner/gps_path_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/gps_path_planner/gps_path_planner.egg-info/entry_points.txt
+writing requirements to ../../build/gps_path_planner/gps_path_planner.egg-info/requires.txt
+writing top-level names to ../../build/gps_path_planner/gps_path_planner.egg-info/top_level.txt
+reading manifest file '../../build/gps_path_planner/gps_path_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/gps_path_planner/gps_path_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/gps_path_planner/gps_path_planner.egg-info to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing cone_detector script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing gps_latlon_logger script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing gps_publish_global_path_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing lidar_roi_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing mission_manager script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing pose_publisher script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing pure_pursuit_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing traffic_light_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing twist_serial_bridge script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+writing list of installed files to '/home/leewonjong/ros2_ws/build/gps_path_planner/install.log'

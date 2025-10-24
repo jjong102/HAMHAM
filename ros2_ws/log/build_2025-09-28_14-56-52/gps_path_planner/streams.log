@@ -1,0 +1,33 @@
+[0.480s] Invoking command in '/home/leewonjong/ros2_ws/src/gps_path_planner': PYTHONPATH=/home/leewonjong/ros2_ws/build/gps_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_path_planner build --build-base /home/leewonjong/ros2_ws/build/gps_path_planner/build install --record /home/leewonjong/ros2_ws/build/gps_path_planner/install.log --single-version-externally-managed install_data
+[0.620s] running egg_info
+[0.620s] writing ../../build/gps_path_planner/gps_path_planner.egg-info/PKG-INFO
+[0.621s] writing dependency_links to ../../build/gps_path_planner/gps_path_planner.egg-info/dependency_links.txt
+[0.621s] writing entry points to ../../build/gps_path_planner/gps_path_planner.egg-info/entry_points.txt
+[0.621s] writing requirements to ../../build/gps_path_planner/gps_path_planner.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/gps_path_planner/gps_path_planner.egg-info/top_level.txt
+[0.622s] reading manifest file '../../build/gps_path_planner/gps_path_planner.egg-info/SOURCES.txt'
+[0.622s] writing manifest file '../../build/gps_path_planner/gps_path_planner.egg-info/SOURCES.txt'
+[0.622s] running build
+[0.622s] running build_py
+[0.623s] copying gps_path_planner/mission_manager.py -> /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner
+[0.623s] running install
+[0.623s] running install_lib
+[0.624s] copying /home/leewonjong/ros2_ws/build/gps_path_planner/build/lib/gps_path_planner/mission_manager.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner
+[0.625s] byte-compiling /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner/mission_manager.py to mission_manager.cpython-310.pyc
+[0.626s] running install_data
+[0.626s] running install_egg_info
+[0.627s] removing '/home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[0.629s] Copying ../../build/gps_path_planner/gps_path_planner.egg-info to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps_path_planner-0.0.0-py3.10.egg-info
+[0.630s] running install_scripts
+[0.647s] Installing camera_publisher script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.647s] Installing cone_detector script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.647s] Installing gps_latlon_logger script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing gps_publish_global_path_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing lidar_roi_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing mission_manager script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing pose_publisher script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing pure_pursuit_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing traffic_light_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] Installing twist_serial_bridge script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+[0.648s] writing list of installed files to '/home/leewonjong/ros2_ws/build/gps_path_planner/install.log'
+[0.662s] Invoked command in '/home/leewonjong/ros2_ws/src/gps_path_planner' returned '0': PYTHONPATH=/home/leewonjong/ros2_ws/build/gps_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_path_planner build --build-base /home/leewonjong/ros2_ws/build/gps_path_planner/build install --record /home/leewonjong/ros2_ws/build/gps_path_planner/install.log --single-version-externally-managed install_data

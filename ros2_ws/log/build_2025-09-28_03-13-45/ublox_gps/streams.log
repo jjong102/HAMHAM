@@ -1,0 +1,94 @@
+[0.006s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs/lib:/home/leewonjong/ros2_ws/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/leewonjong/ros2_ws/src/ublox/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/leewonjong/ros2_ws/install/ublox_gps
+[0.012s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.076s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.080s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.091s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.092s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.094s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.104s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.123s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.136s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.137s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.181s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.197s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.202s] -- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+[0.207s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.216s] -- Found rtcm_msgs: 1.1.6 (/opt/ros/humble/share/rtcm_msgs/cmake)
+[0.224s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.231s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.232s] -- Found ublox_msgs: 2.3.0 (/home/leewonjong/ros2_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+[0.282s] -- Configuring done
+[0.303s] -- Generating done
+[0.307s] -- Build files have been written to: /home/leewonjong/ros2_ws/build/ublox_gps
+[0.313s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs/lib:/home/leewonjong/ros2_ws/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/leewonjong/ros2_ws/src/ublox/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/leewonjong/ros2_ws/install/ublox_gps
+[0.313s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs/lib:/home/leewonjong/ros2_ws/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox_gps -- -j16 -l16
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target ublox_gps[0m
+[0.378s] [ 77%] Built target ublox_gps
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target ublox_gps_node[0m
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target ublox_logger[0m
+[0.397s] [ 90%] Built target ublox_logger
+[0.398s] [100%] Built target ublox_gps_node
+[0.406s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs/lib:/home/leewonjong/ros2_ws/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox_gps -- -j16 -l16
+[0.406s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs/lib:/home/leewonjong/ros2_ws/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leewonjong/ros2_ws/build/ublox_gps
+[0.409s] -- Install configuration: ""
+[0.409s] -- Execute custom install script
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/adr_udr_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/async_worker.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/callback.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/component_interface.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fix_diagnostic.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fts_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gnss.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gps.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hp_pos_rec_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_ref_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_rov_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/mkgmtime.h
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/node.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_pa.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/rtcm.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/tim_product.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware6.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7plus.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware8.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware9.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_topic_diagnostic.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/utils.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_gps/worker.hpp
+[0.410s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_base.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_rover.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_base.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_rover.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/neo_m8u_rover.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/nmea.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[0.411s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[0.411s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_targets-extras.cmake
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[0.418s] -- Up-to-date symlink: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/package.xml
+[0.419s] -- Up-to-date: /home/leewonjong/ros2_ws/install/ublox_gps/lib/libublox_gps.so
+[0.419s] -- Up-to-date: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport.cmake
+[0.419s] -- Up-to-date: /home/leewonjong/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport-noconfig.cmake
+[0.420s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/home/leewonjong/ros2_ws/install/ublox:/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/combined_rtk:/home/leewonjong/ros2_ws/install/ntrip_client:/home/leewonjong/ros2_ws/install/gps_path_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_msgs/lib:/home/leewonjong/ros2_ws/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leewonjong/ros2_ws/build/ublox_gps

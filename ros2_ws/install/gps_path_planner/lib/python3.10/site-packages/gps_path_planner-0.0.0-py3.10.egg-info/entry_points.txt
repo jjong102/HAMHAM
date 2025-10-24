@@ -1,0 +1,12 @@
+[console_scripts]
+camera_publisher = gps_path_planner.camera_publisher:main
+cone_detector = gps_path_planner.cone_detector:main
+gps_latlon_logger = gps_path_planner.gps_latlon_logger:main
+gps_publish_global_path_node = gps_path_planner.gps_publish_global_path_node:main
+lidar_roi_node = gps_path_planner.lidar_roi_node:main
+mission_manager = gps_path_planner.mission_manager:main
+pose_publisher = gps_path_planner.pose_publisher:main
+pure_pursuit_node = gps_path_planner.pure_pursuit_node:main
+traffic_light_node = gps_path_planner.traffic_light_node:main
+twist_serial_bridge = gps_path_planner.twist_serial_bridge:main
+

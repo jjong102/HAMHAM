@@ -1,0 +1,3 @@
+[console_scripts]
+bno055 = combined_rtk.bno055:main
+

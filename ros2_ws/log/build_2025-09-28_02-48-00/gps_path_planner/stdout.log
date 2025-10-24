@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating gps_path_planner.egg-info
+writing gps_path_planner.egg-info/PKG-INFO
+writing dependency_links to gps_path_planner.egg-info/dependency_links.txt
+writing entry points to gps_path_planner.egg-info/entry_points.txt
+writing requirements to gps_path_planner.egg-info/requires.txt
+writing top-level names to gps_path_planner.egg-info/top_level.txt
+writing manifest file 'gps_path_planner.egg-info/SOURCES.txt'
+reading manifest file 'gps_path_planner.egg-info/SOURCES.txt'
+writing manifest file 'gps_path_planner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/leewonjong/ros2_ws/install/gps_path_planner/lib/python3.10/site-packages/gps-path-planner.egg-link (link to .)
+Installing cone_detector script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing gps_latlon_logger script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing gps_publish_global_path_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing mission_manager script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing pose_publisher script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing pure_pursuit_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing traffic_light_node script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+Installing twist_serial_bridge script to /home/leewonjong/ros2_ws/install/gps_path_planner/lib/gps_path_planner
+
+Installed /home/leewonjong/ros2_ws/build/gps_path_planner
+running symlink_data
+creating /home/leewonjong/ros2_ws/install/gps_path_planner/share/ament_index
+creating /home/leewonjong/ros2_ws/install/gps_path_planner/share/ament_index/resource_index
+creating /home/leewonjong/ros2_ws/install/gps_path_planner/share/ament_index/resource_index/packages
+symbolically linking /home/leewonjong/ros2_ws/build/gps_path_planner/resource/gps_path_planner -> /home/leewonjong/ros2_ws/install/gps_path_planner/share/ament_index/resource_index/packages
+symbolically linking /home/leewonjong/ros2_ws/build/gps_path_planner/package.xml -> /home/leewonjong/ros2_ws/install/gps_path_planner/share/gps_path_planner
+creating /home/leewonjong/ros2_ws/install/gps_path_planner/share/gps_path_planner/launch
+symbolically linking /home/leewonjong/ros2_ws/build/gps_path_planner/launch/gps_path_planner_launch.py -> /home/leewonjong/ros2_ws/install/gps_path_planner/share/gps_path_planner/launch

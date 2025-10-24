@@ -1,0 +1,33 @@
+[0.469s] Invoking command in '/home/leewonjong/ros2_ws/build/ntrip_client': PYTHONPATH=/home/leewonjong/ros2_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/leewonjong/ros2_ws/build/ntrip_client/build
+[0.603s] running develop
+[0.686s] Note: you must uninstall or replace scripts manually!
+[0.686s] Removing /home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip-client.egg-link (link to src)
+[0.701s] Invoked command in '/home/leewonjong/ros2_ws/build/ntrip_client' returned '0': PYTHONPATH=/home/leewonjong/ros2_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/leewonjong/ros2_ws/build/ntrip_client/build
+[0.702s] Invoking command in '/home/leewonjong/ros2_ws/src/ntrip_client': PYTHONPATH=/home/leewonjong/ros2_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/leewonjong/ros2_ws/build/ntrip_client/build install --record /home/leewonjong/ros2_ws/build/ntrip_client/install.log --single-version-externally-managed install_data --force
+[0.817s] running egg_info
+[0.817s] writing ../../build/ntrip_client/ntrip_client.egg-info/PKG-INFO
+[0.817s] writing dependency_links to ../../build/ntrip_client/ntrip_client.egg-info/dependency_links.txt
+[0.817s] writing requirements to ../../build/ntrip_client/ntrip_client.egg-info/requires.txt
+[0.817s] writing top-level names to ../../build/ntrip_client/ntrip_client.egg-info/top_level.txt
+[0.818s] reading manifest file '../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.818s] adding license file 'LICENSE'
+[0.819s] writing manifest file '../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.821s] running build
+[0.821s] running build_py
+[0.821s] running build_scripts
+[0.821s] running install
+[0.821s] running install_lib
+[0.821s] running install_data
+[0.821s] copying resource/ntrip_client -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ament_index/resource_index/packages
+[0.821s] copying package.xml -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ntrip_client
+[0.821s] copying launch/ntrip_serial_device_launch.py -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ntrip_client
+[0.821s] copying launch/ntrip_client_launch.py -> /home/leewonjong/ros2_ws/install/ntrip_client/share/ntrip_client
+[0.821s] running install_egg_info
+[0.821s] removing '/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.4.0-py3.10.egg-info' (and everything under it)
+[0.821s] Copying ../../build/ntrip_client/ntrip_client.egg-info to /home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.4.0-py3.10.egg-info
+[0.821s] running install_scripts
+[0.831s] changing mode of /home/leewonjong/ros2_ws/install/ntrip_client/lib/ntrip_client/ntrip_ros.py to 775
+[0.831s] changing mode of /home/leewonjong/ros2_ws/install/ntrip_client/lib/ntrip_client/ntrip_serial_device_ros.py to 775
+[0.831s] changing mode of /home/leewonjong/ros2_ws/install/ntrip_client/lib/ntrip_client/ntrip_ros_base.py to 775
+[0.831s] writing list of installed files to '/home/leewonjong/ros2_ws/build/ntrip_client/install.log'
+[0.844s] Invoked command in '/home/leewonjong/ros2_ws/src/ntrip_client' returned '0': PYTHONPATH=/home/leewonjong/ros2_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leewonjong/ros2_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/leewonjong/ros2_ws/build/ntrip_client/build install --record /home/leewonjong/ros2_ws/build/ntrip_client/install.log --single-version-externally-managed install_data --force

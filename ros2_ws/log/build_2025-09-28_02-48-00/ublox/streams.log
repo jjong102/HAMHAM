@@ -1,0 +1,41 @@
+[0.149s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox': AMENT_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_gps/lib:/home/leewonjong/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leewonjong/ros2_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leewonjong/ros2_ws/src/ublox/ublox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leewonjong/ros2_ws/install/ublox
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.393s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.424s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Configuring done
+[0.477s] -- Generating done
+[0.477s] -- Build files have been written to: /home/leewonjong/ros2_ws/build/ublox
+[0.483s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_gps/lib:/home/leewonjong/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leewonjong/ros2_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leewonjong/ros2_ws/src/ublox/ublox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leewonjong/ros2_ws/install/ublox
+[0.484s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox': AMENT_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_gps/lib:/home/leewonjong/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leewonjong/ros2_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox -- -j16 -l16
+[0.504s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_gps/lib:/home/leewonjong/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leewonjong/ros2_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox -- -j16 -l16
+[0.504s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox': AMENT_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_gps/lib:/home/leewonjong/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leewonjong/ros2_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leewonjong/ros2_ws/build/ublox
+[0.504s] -- Install configuration: ""
+[0.505s] -- Execute custom install script
+[0.505s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+[0.510s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+[0.514s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/environment/ament_prefix_path.sh
+[0.518s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+[0.528s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/environment/path.sh
+[0.533s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/environment/path.dsv
+[0.540s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/local_setup.bash
+[0.543s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/local_setup.sh
+[0.546s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/local_setup.zsh
+[0.553s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/local_setup.dsv
+[0.557s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/package.dsv
+[0.562s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ament_index/resource_index/packages/ublox
+[0.567s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+[0.571s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+[0.578s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox/share/ublox/package.xml
+[0.588s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leewonjong/ros2_ws/install/ublox_gps:/home/leewonjong/ros2_ws/install/ublox_msgs:/home/leewonjong/ros2_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/leewonjong/ros2_ws/install/ublox_gps/lib:/home/leewonjong/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leewonjong/ros2_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leewonjong/ros2_ws/build/ublox

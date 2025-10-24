@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leewonjong/ros2_ws/src/ublox/ublox_serialization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leewonjong/ros2_ws/install/ublox_serialization
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.324s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.395s] -- Configuring done
+[0.398s] -- Generating done
+[0.398s] -- Build files have been written to: /home/leewonjong/ros2_ws/build/ublox_serialization
+[0.402s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leewonjong/ros2_ws/src/ublox/ublox_serialization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leewonjong/ros2_ws/install/ublox_serialization
+[0.407s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox_serialization -- -j16 -l16
+[0.431s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leewonjong/ros2_ws/build/ublox_serialization -- -j16 -l16
+[0.436s] Invoking command in '/home/leewonjong/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leewonjong/ros2_ws/build/ublox_serialization
+[0.442s] -- Install configuration: ""
+[0.445s] -- Execute custom install script
+[0.445s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/include/ublox_serialization/ublox_serialization/checksum.hpp
+[0.451s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/include/ublox_serialization/ublox_serialization/serialization.hpp
+[0.457s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[0.467s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[0.475s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[0.486s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[0.495s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[0.500s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[0.506s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[0.513s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[0.519s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[0.525s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[0.530s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.dsv
+[0.536s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[0.541s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.553s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_targets-extras.cmake
+[0.557s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[0.562s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[0.567s] -- Symlinking: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.xml
+[0.572s] -- Installing: /home/leewonjong/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/export_ublox_serializationExport.cmake
+[0.574s] Invoked command in '/home/leewonjong/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leewonjong/ros2_ws/build/ublox_serialization
